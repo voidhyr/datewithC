@@ -1,0 +1,93 @@
+# ─── Compiled Binaries ─────────────────────────────────────────────────────────
+# Ignore all compiled output — only source goes in git
+*.o
+*.out
+*.exe
+*.elf
+a.out
+
+# Ignore compiled programs (match common patterns)
+# Add your binary names explicitly if needed:
+# hello
+# server
+# client
+
+# ─── Build Artifacts ───────────────────────────────────────────────────────────
+*.a
+*.so
+*.d
+*.dSYM/
+*.su
+
+# ─── Debug & Profiling ─────────────────────────────────────────────────────────
+# GDB
+.gdb_history
+gdb.txt
+core
+core.*
+
+# Valgrind
+valgrind.log
+vgcore.*
+
+# AddressSanitizer / UBSan output logs
+asan.log*
+
+# strace output
+strace.log
+
+# ─── Editor & IDE ──────────────────────────────────────────────────────────────
+# Neovim / Vim
+*.swp
+*.swo
+*~
+.netrwhist
+Session.vim
+tags
+.tags
+
+# VSCode (in case)
+.vscode/
+*.code-workspace
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# ─── CMake / Build Systems ─────────────────────────────────────────────────────
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile.cmake
+build/
+_build/
+
+# ─── OS Junk ──────────────────────────────────────────────────────────────────
+# Linux
+.directory
+*~
+
+# macOS (in case you ever open this on a Mac)
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ─── Logs & Temp Files ─────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# ─── Personal Notes You Don't Want Public ─────────────────────────────────────
+# Uncomment if you keep a private scratch pad:
+# notes/private/
+# scratch/
+
+# ─── Secrets (Never commit these) ─────────────────────────────────────────────
+.env
+*.key
+*.pem
+secrets.h
+config_secret.h
