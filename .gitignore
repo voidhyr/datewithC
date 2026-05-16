@@ -91,3 +91,15 @@ _build/
 *.pem
 secrets.h
 config_secret.h
+
+# ─── PlatformIO ────────────────────────────────────────────────────────────────
+.pio/
+.pioenvs/
+.piolibdeps/
+sdkconfig
+sdkconfig.old
+
+# ─── ESP-IDF ───────────────────────────────────────────────────────────────────
+build/
+dependencies.lock
+managed_components/
