@@ -6,7 +6,7 @@
 
 ## What is this?
 
-`datewithC` is my personal learning repository as I transition from software development (BCA background, Go) into **systems programming** with C.
+`datewithC` is my personal learning repository as I move from web/app development into **systems programming** with C.
 
 This isn't a tutorial repo. It's a **journal of real learning** — the confusion, the segfaults, the "oh, so *that's* why" moments. Every file here is something I wrote, broke, fixed, and understood.
 
@@ -61,9 +61,9 @@ make asan    # AddressSanitizer — catches memory bugs at runtime
 
 ## Background
 
-I'm Dani — an MSc CS student in Kerala, India. BCA background. Made a deliberate move away from the software industry path toward **systems programming and networking internals**. This repo is the paper trail of that journey.
+I'm Dani — an MSc CS student in Kerala, India. Made a deliberate move away from web/app development toward **systems programming and networking internals**. This repo is the paper trail of that journey.
 
 ---
 
-*"The C programming language — it gives you enough rope to shoot yourself in the foot."*
+*"C gives you enough rope to hang yourself."*
 *Learning anyway.*
