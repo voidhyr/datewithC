@@ -54,8 +54,7 @@ tags
 .idea/
 cmake-build-*/
 
-# ─── Makefile / CMake / Build Systems ─────────────────────────────────────────────────────
-Makefile
+# ─── CMake / Build Systems ─────────────────────────────────────────────────────
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
