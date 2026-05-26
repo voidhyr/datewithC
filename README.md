@@ -31,27 +31,26 @@ The kernel is C. The networking stack is C. The protocols that move packets acro
 ---
 
 ## Build & Run
-
+ 
 Each program has its own `Makefile`. To build:
-
+ 
 ```bash
-make
-./program_name
-```
-
-To build with sanitizers (recommended while learning):
-
-```bash
-make asan    # AddressSanitizer — catches memory bugs at runtime
+make          # compile
+make run      # compile and run
+make debug    # compile and open in gdb
+make val      # run with valgrind
+make asan     # run with AddressSanitizer + UBSan
+make clean    # remove binaries
 ```
 
 ---
 
 ## Tools I Use
-
+ 
 | Tool | Purpose |
 |------|---------|
-| `gcc` | Compiler — with `-Wall -Wextra -g` always |
+| `gcc` | Compiler — with `-Wall -Wextra -Werror -std=c11` always |
+| `make` | Build system — targets for run, debug, valgrind, asan |
 | `gdb` | Debugger — for segfaults and stepping through code |
 | `valgrind` | Memory leak and error detection |
 | `strace` | Watch system calls in real time |
